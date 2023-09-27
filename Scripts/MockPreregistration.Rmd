@@ -1,0 +1,83 @@
+---
+title           : "Preregistration BIOL 520I - Productivity and Reproducibility"
+shorttitle      : "Preregistration BIOL 520I"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author: 
+  - name        : Harry Zhang
+    affiliation : 1
+
+affiliation:
+  - id          : 1
+    institution : UBC Okanagan
+
+output: prereg::prereg_pdf
+---
+
+<!-- To keep pre-registrations to a reasonable length for readers, we recommend answers fit within a single page .pdf document, roughly 3200 characters. Read more about this here: https://aspredicted.org/messages/why_limits.php -->
+
+## Data collection
+
+<!-- Have any data been collected for this study already? (Note: "Yes" is not an accepted answer.) -->
+
+> This project uses existing data from the *palmerpenguins* package.
+
+## Hypothesis
+
+<!-- What's the main question being asked or hypothesis being tested in this study? -->
+
+> This is an exploratory analysis without a priori hypothesis.
+
+## Dependent variable
+
+<!-- Describe the key dependent variable(s) specifying how they will be measured. -->
+
+> Although correlationship between variables is explored, no regression method is used. Dependent variables are not defined.
+
+## Conditions
+
+<!-- How many and which conditions will participants be assigned to? -->
+
+> NA
+
+## Analyses
+
+<!-- Specify exactly which analyses you will conduct to examine the main question/hypothesis. -->
+
+> Group-wise statistics are calculated and presented in tabular formats to show differences in penguin bill dimension.
+
+## Outliers and exclusions
+
+<!-- Describe exactly how outliers will be defined and handled, and your precise rule(s) for excluding observations. -->
+
+> Rows with missing data are excluded from the analyses for simplicity.
+
+## Sample size
+
+<!-- How many observations will be collected or what will determine sample size? No need to justify decision, but be precise about _exactly_ how the number will be determined. -->
+
+> 344 observations are included in the raw data.
+
+## Other
+
+<!-- Anything else you would like to pre-register? (e.g., secondary analyses, variables collected for exploratory purposes, unusual analyses planned?) -->
+
+> Observed data are plotted to aid visualization of bill dimension differences.
+
+## Study type
+
+Finally. For record keeping purposes, please tell us the type of study you are pre-registering.
+
+-   Class project or assignment
+
+# References
+
+*Horst AM, Hill AP, Gorman KB (2020). palmerpenguins: Palmer Archipelago (Antarctica) penguin data. R package version 0.1.0. <https://allisonhorst.github.io/palmerpenguins/>. <doi:10.5281/zenodo.3960218>.*
+
+```{=tex}
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+```
+\noindent
