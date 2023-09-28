@@ -26,7 +26,7 @@ output: prereg::prereg_pdf
 
 <!-- What's the main question being asked or hypothesis being tested in this study? -->
 
-> This is an exploratory analysis without a priori hypothesis.
+> This is an exploratory analysis without a priori hypotheses.
 
 ## Dependent variable
 
@@ -65,10 +65,7 @@ output: prereg::prereg_pdf
 > Observed data are plotted to aid visualization of bill dimension differences.
 
 ## Study type
-
-Finally. For record keeping purposes, please tell us the type of study you are pre-registering.
-
--   Class project or assignment
+> Class project or assignment
 
 # References
 
